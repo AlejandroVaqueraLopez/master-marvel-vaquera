@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>App</title>
+</head>
+<body>
+	
+	<script>
+		var figura = prompt("Ingresa 'rectangulo', 'triangulo' o 'cuadrado'");
+		var calculo = prompt("Ingresa 'perimetro' o 'area'");
+
+		calcular(figura,calculo);
+
+		function calcular(figura,calculo){
+			var result = 0;
+			if(figura == "rectangulo"){
+				result = calcRect(calculo);
+			}else if(figura == "triangulo"){
+				result = calcTrian(calculo);
+			}else if(figura == "cuadrado"){
+				result = calcCuad(calculo);
+			}
+			console.log("El resultado es: ", result);
+	  }
+
+		function calcRect(calculo){
+			var result = 0;
+			var ladoLargo = parseInt(prompt("Ingresa el lado largo"));
+			var ladoCorto = parseInt(prompt("Ingresa el lado corto"));
+
+			if(calculo === "perimetro"){
+				result = ((ladoLargo+ladoCorto)*2);
+				return result;
+			}else if(calculo === "area"){
+				result = (ladoLargo*ladoCorto);
+				return result;
+			}
+		}
+
+		function calcTrian(calculo){
+			var result = 0;
+			var lado = parseInt(prompt("Ingresa el lado"));
+			if(calculo === "perimetro"){
+				result = (lado*3);
+				return result;
+			}else if(calculo === "area"){
+				var altura = parseInt(prompt("Ingresa la altura"));
+				result = ((lado*altura)/2);
+				return result;
+			}
+		}
+
+		function calcCuad(calculo){
+			var result = 0;
+			var lado = parseInt(prompt("Ingresa el lado"));
+			if(calculo === "perimetro"){
+				result = (lado*4);
+				return result;
+			}else if(calculo === "area"){
+				result = Math.pow(lado,2);
+				return result;
+			}
+		}
+
+	</script>
+</body>
+</html>
