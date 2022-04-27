@@ -1,0 +1,48 @@
+//FASE ANALISIS
+//Definir (listo)
+ /*
+ Crear una calculadora que permita seleccionar entre un rectangulo, un triangulo
+(unicamente isosceles) 
+o un cuadrado, permita seleccionar si se quiere calcular su perimetro o su area y que 
+al usuario ingresar las medidas solicitantes en centimetros, muestre unicamente el 
+resultado. Una vez terminado un flujo, puede calcular los datos de otra nueva figura si se vuelven a ingresar las entradas.
+
+Notas: todo en centimetros
+Notas: en triangulos solo considerar isoceles
+Notas: considerar que quiza despues haya mas figuras
+
+ */
+//Análisis (entradas, proceso, salidas)
+/*
+Entradas
+ 1. Encender el sistema
+ 2. Insertar el nombre de figura a calcular (rectangulo, un triangulo (unicamente isosceles) 
+ o un cuadrado.
+
+ 3. Ingresar "perimetro" si se quiere calcular el perimetro o "area" si se desea el area de la figura seleccionada
+ 4. Si es rectangulo, ingresar lado mas largo
+ 5. Si es rectangulo, ingresar el lado corto
+ 6. Si es triangulo, ingresar la medida de un lado
+ 7. Si es trangulo, ingresar medida de altura.
+ 8. Si es cuadrado, ingresar la medida de un lado.
+Proceso
+ 4. Si es rectangulo y perimetro, sumar ambos lados ingresados y multiplicar resultado por 2.
+ 5. Si es rectangulo y area, multiplicar el lado corto por el lado largo ingresados.
+ 6. Si es triangulo y perimetro, multiplicar el lado ingresado por 3.
+ 8. Si es triangulo y area, multiplicar el lado ingresado por la altura y dividir resultado entre 2
+ 9. Si es cuadrado y perimetro, multiplicar la medida de lado ingresado por 4
+ 10. Si es cuadrado y area, elevar la medida ingresada del lado al cuadrado.
+
+Salidas
+ 15. Imprimir resultado.
+*/
+
+//FASE DISEñO DEL ALGORITMO
+//Diseño de un algoritmo
+
+//FASE DE TERMINACION
+//Transformación del algoritmo en código
+//Ejecución y validación
+
+//FASE 
+//Pruebas de aceptación

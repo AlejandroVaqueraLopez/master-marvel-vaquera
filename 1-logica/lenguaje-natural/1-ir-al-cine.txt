@@ -1,0 +1,35 @@
+//FASE ANALISIS
+//Definir (listo)
+//Análisis (entradas, proceso, salidas)
+/*
+Entradas
+ 1. Verificar que tengo dinero (que)
+ 2. Verificar que tengo el presupuesto designado para ir al cine (cuanto)
+ 3. Verificar la disponibilidad de la funcion en tiempo actual 
+
+Proceso
+ 4. Decidir un medio de transporte
+ 5. Verificar disponibilidad del medio seleccionado
+ 6. Trasportarse al cine
+ 7. Caminar a taquilla.
+ 8. Comprar entradas
+ 9. Comprar alimentos para la funcion
+ 10. Caminar a la zona de salas.
+ 11. Mostrar los boletos para obtener acceso
+ 12. Entrar a la sala indicada
+ 13. Buscar el asiento indicado
+ 14. Tomar asiento indicado
+
+Salidas
+ 15. Visualizar la funcion.
+*/
+
+//FASE DISEñO DEL ALGORITMO
+//Diseño de un algoritmo
+
+//FASE DE TERMINACION
+//Transformación del algoritmo en código
+//Ejecución y validación
+
+//FASE 
+//Pruebas de aceptación
