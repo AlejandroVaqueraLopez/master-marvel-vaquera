@@ -2,6 +2,15 @@
 
 **Fases de diseño de análisis de un problema**
 
+##h2
+
+1. listItem1
+2. listItem2
+3. listItem3
+4. listItem4
+
+*cursive*
+
 * Definición.
 * Análisis (entradas, proceso, salidas).
 * Diseño de un algoritmo.
