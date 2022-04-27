@@ -1,6 +1,6 @@
 **Fases de diseño de análisis de un problema**
 
-##h2
+## h2
 
 1. listItem1
 2. listItem2
