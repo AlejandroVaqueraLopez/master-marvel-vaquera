@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+	<script>
+		const student = [100,599,19,199,299];
+		const alumni = {name:"alejandro",age:19,country:"Mexico"}
+		const numbers = [15,131,5,6,1,2];
+
+//index of array
+		console.group("over 100");
+		for(index in student){
+			if(student[index] > 100){
+				console.log("Current number is over 100: ",student[index]);
+			}
+		}
+		console.groupEnd();
+
+//properties of objects
+		console.group("properties");
+		for(property in alumni){
+				console.log("Current property is: ",alumni[property]);
+		}
+		console.groupEnd();
+
+//forEach()
+		console.group("forEach");
+		student.forEach((item)=>{
+			console.log(item);
+		})
+		console.groupEnd();
+
+//map()
+		console.group("map");
+		student.map((item,index)=>{
+			console.log("item: ",item," index: ",index);
+		});
+		console.groupEnd();
+
+		console.group("map array returned");
+		console.log(numbers);
+		const newArray = numbers.map((item)=>{
+			numbers.push(5); //this only return the new array at the end of iterations
+		});
+		console.log(numbers);
+		console.groupEnd();
+
+		
+
+	</script>
+
+
+</body>
+</html>
