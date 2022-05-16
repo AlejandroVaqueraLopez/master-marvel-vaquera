@@ -1,7 +1,12 @@
-.card-panel{
-	width:80%;
+main{
+	width:70%;
+	max-width:800px;
+	min-width:300px;
 	height:auto;
 	/*background*/
+}
+h1{
+	font-size:20px;
 }
 
 .lbl-last-name{
@@ -11,4 +16,21 @@
 .txt-last-name:active{
 	color:#000;
 	border-bottom:1px solid #000;
+}
+.list-container{
+	display:flex;
+	justify-content:center;
+}
+.list-contacts{/*ul*/
+	width:100%;
+}
+.list-contacts-item{/*ul li*/
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.user-image img{
+	height:150px;
+	width:auto;
 }
